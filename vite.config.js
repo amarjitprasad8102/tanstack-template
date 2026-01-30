@@ -40,7 +40,7 @@ export default defineConfig({
     // Only generate source maps if Sentry is enabled
     sourcemap: !!process.env.SENTRY_AUTH_TOKEN,
         server: {
-      allowedHosts: : ['localhost', '127.0.0.1', '.netlify.app'],
+      allowedHosts: ['localhost', '127.0.0.1', '.netlify.app'],
           
     },
   },
